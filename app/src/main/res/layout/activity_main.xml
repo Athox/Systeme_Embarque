@@ -10,8 +10,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.acha_ou_teung.systeme_embarque.MainActivity">
 
-    <TextView
+    <Button
+        android:text="Inscription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginBottom="110dp"
+        android:id="@+id/button_inscription" />
+
+    <Button
+        android:text="Connexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_inscription"
+        android:layout_toEndOf="@+id/button_inscription"
+        android:layout_marginStart="53dp"
+        android:id="@+id/button_connexion" />
 </RelativeLayout>
